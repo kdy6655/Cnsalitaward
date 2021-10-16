@@ -43,7 +43,7 @@ namespace Cnsalitaward
 				Page.ClientScript.RegisterClientScriptBlock(typeof(Page), "Alert", "alert('필명을 입력해주세요.')", true);
 			else
 			{
-				if (Session["onlyNum"] != null && Session["onlyID"] != null)
+				if (Session["onlyNum"] != null && Session["onlyID"] != null && Session["onlyPenname"] != null)
 				{
 					if (userPW == userPW2)
 					{
@@ -53,9 +53,10 @@ namespace Cnsalitaward
 						string sql = "INSERT INTO account(RealName, RealNum, UserID, UserPW, PenName) VALUES(?,?,?,?,?)";
 						MySqlCommand cmd = new MySqlCommand(sql, con);
 
-						Random r = new Random();
-						r.Next();
-						userPN = DateTime.Now.ToString("yy") + userPN + r.Next(1, 99);
+						//랜덤번호 부여 중지(2021)
+						//Random r = new Random();
+						//r.Next();
+						//userPN = DateTime.Now.ToString("yy") + userPN + r.Next(1, 99);
 
 						cmd.Parameters.Add("RealName", MySqlDbType.VarChar).Value = realNAME;
 						cmd.Parameters.Add("RealNum", MySqlDbType.Int32).Value = realNUM;
@@ -101,6 +102,30 @@ namespace Cnsalitaward
 				}
 			}
 		}
+
+		protected void CheckPenname_Click(object sender, EventArgs e)
+		{
+			string IsOnly = Cnsalitaward.Managers.Account.CheckPenname(penName.Text);
+			string RealPen = penName.Text;
+			if (string.IsNullOrEmpty(RealPen.Trim()))
+				Response.Write("<script>alert('닉네임을 입력해주세요.');</script>");
+			else
+			{
+				if (IsOnly == "only")
+				{
+					onlyPN.Text = "※ 가입 가능한 닉네임입니다.";
+					onlyPN.Style.Add("color", "green");
+					Session["onlyPenname"] = "ok";
+				}
+				else
+				{
+					onlyPN.Text = "※ 중복된 닉네임입니다.";
+					onlyPN.Style.Add("color", "red");
+					Session["onlyPenname"] = null;
+				}
+			}
+		}
+
 		protected void CheckID_Click(object sender, EventArgs e)
 		{
 			string IsOnly = Cnsalitaward.Managers.Account.CheckID(userId.Text);

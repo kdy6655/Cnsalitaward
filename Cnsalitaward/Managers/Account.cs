@@ -112,6 +112,29 @@ namespace Cnsalitaward.Managers
                 return "only";
             }
         }
+        public static string CheckPenname(string RealPen)
+        {
+            MySqlConnection conn = null;
+            // Connect to DB;
+            conn = new MySqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["Cnsalitaward"].ConnectionString);
+            conn.Open();
+
+            string sql = "SELECT * FROM account WHERE Penname='" + RealPen + "';";
+            MySqlCommand cmd = new MySqlCommand(sql, conn);
+
+            object obj = cmd.ExecuteScalar();
+
+            if (obj != null)
+            {
+                conn.Close();
+                return "notonly";
+            }
+            else
+            {
+                conn.Close();
+                return "only";
+            }
+        }
         protected string GetIPAddress()
         {
             System.Web.HttpContext context = System.Web.HttpContext.Current;

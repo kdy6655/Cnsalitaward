@@ -100,7 +100,8 @@
                            // Write on Page
                            Response.Write("<div style=\"float:left; width:72.6VW ;height:2.8VW; margin-left:14.75VW;\">");
                            Response.Write("<div class=\"Noto\" style=\"text-align: center; float:left; width:4.453VW;font-color:#5A5A5A;padding:0.88VW ;height:2.8VW\";>" + nc + "</div>");
-                            Response.Write("<div onclick=\"location.href='Work1?Id=" + work.Id + "&Kind=verse'\"  class=\"Noto\" style=\"cursor:pointer;text-align: center; float:left;width:37.75VW; font-color:#5A5A5A ;padding:0.88VW ;height:2.8VW\";>" + work.Title + "</div>");
+                           Response.Write("<div class=\"Noto\" style=\"cursor:pointer;text-align: center; float:left;width:37.75VW; font-color:#5A5A5A ;padding:0.88VW ;height:2.8VW\";>" + work.Title + "</div>");
+                           //Response.Write("<div onclick=\"location.href='Work1?Id=" + work.Id + "&Kind=verse'\"  class=\"Noto\" style=\"cursor:pointer;text-align: center; float:left;width:37.75VW; font-color:#5A5A5A ;padding:0.88VW ;height:2.8VW\";>" + work.Title + "</div>");
 
                            Response.Write("<div class=\"Noto\" style=\"text-align: center;float:left;width:11.9VW; font-color:#5A5A5A ;padding:0.88VW ;height:2.8VW\";>" + work.Author + "</div>");
                            Response.Write("<div class=\"Noto\" style=\"text-align: center; float:left; width:6.3VW; font-color:#5A5A5A ;padding:0.88VW ;height:2.8VW\";>" + work.Like + "</div>");
@@ -126,7 +127,8 @@
                            // Write on Page
                            Response.Write("<div style=\"float:left; width:72.6VW ;height:2.8VW; margin-left:14.75VW;\">");
                            Response.Write("<div class=\"Noto\" style=\"text-align: center; float:left; width:4.453VW;font-color:#5A5A5A;padding:0.88VW ;height:2.8VW\";>" + nc + "</div>");
-                            Response.Write("<div onclick=\"location.href='Work1?Id=" + work.Id + "&Kind=verse'\"  class=\"Noto\" style=\"cursor:pointer;text-align: center; float:left;width:37.75VW; font-color:#5A5A5A ;padding:0.88VW ;height:2.8VW\";>" + work.Title + "</div>");
+                           Response.Write("<div class=\"Noto\" style=\"cursor:pointer;text-align: center; float:left;width:37.75VW; font-color:#5A5A5A ;padding:0.88VW ;height:2.8VW\";>" + work.Title + "</div>");
+                           //Response.Write("<div onclick=\"location.href='Work1?Id=" + work.Id + "&Kind=verse'\"  class=\"Noto\" style=\"cursor:pointer;text-align: center; float:left;width:37.75VW; font-color:#5A5A5A ;padding:0.88VW ;height:2.8VW\";>" + work.Title + "</div>");
 
                            Response.Write("<div class=\"Noto\" style=\"text-align: center; float:left;width:7.6VW; font-color:#5A5A5A ;padding:0.88VW ;height:2.8VW\";>" + work.Author + "</div>");
 
@@ -153,7 +155,8 @@
                                Response.Write("<div style=\"float:left; width:70.6VW ;height:2.8VW; margin-left:14.75VW;background-color:EBEBEB\">");
                                Response.Write("<div class=\"Noto\" style=\"text-align: center; ;background: #FFD8D8 0% 0% no-repeat padding-box;border-radius: 0.10416666666666667VW ;float:left; padding:0.88VW ;width: 2.9166666666666665VW;height:1.3541666666666667VW;margin-top:0.5VW; margin-left:0.6770833333333334VW;margin-right:0.5729166666666666VW\";></div>");
                                Response.Write("<div class=\"Noto\" style=\"font-size:0.8333333333333334VW; margin-left:0.9375VW;position: absolute;margin-top: 0.8VW;color:#AF5151\">화제작</div>");
-                               Response.Write("<div onclick=\"location.href='Work1?Id=" + hot.Id + "&Kind=verse'\"  class=\"Noto\" style=\"cursor:pointer;text-align: center; float:left;width:37.75VW; font-color:#5A5A5A ;padding:0.88VW ;height:2.8VW\";>" + hot.Title + "</div>");
+                               Response.Write("<div class=\"Noto\" style=\"cursor:pointer;text-align: center; float:left;width:37.75VW; font-color:#5A5A5A ;padding:0.88VW ;height:2.8VW\";>" + hot.Title + "</div>");
+                               //Response.Write("<div onclick=\"location.href='Work1?Id=" + hot.Id + "&Kind=verse'\"  class=\"Noto\" style=\"cursor:pointer;text-align: center; float:left;width:37.75VW; font-color:#5A5A5A ;padding:0.88VW ;height:2.8VW\";>" + hot.Title + "</div>");
                                Response.Write("<div class=\"Noto\" style=\"text-align: center; float:left;width:11.9VW; font-color:#5A5A5A ;padding:0.88VW ;height:2.8VW\";>" + hot.Author + "</div>");
 
                                Response.Write("<div class=\"Noto\" style=\"text-align: center; float:left; width:7vw; font-color:#5A5A5A ;padding:0.88VW ;height:2.8VW\";>" + hot.Like + "</div>");
@@ -176,8 +179,9 @@
                                // Write on Page
                                Response.Write("<div style=\"float:left; width:72.6VW ;height:2.8VW; margin-left:14.75VW;\">");
                                Response.Write("<div class=\"Noto\" style=\"text-align: center; float:left; width:4.453VW;font-color:#5A5A5A;padding:0.88VW ;height:2.8VW\";>" + (count2 - count) + "</div>");
-                                Response.Write("<div onclick=\"location.href='Work1?Id=" + work.Id + "&Kind=verse'\"  class=\"Noto\" style=\"cursor:pointer;text-align: center; float:left;width:37.75VW; font-color:#5A5A5A ;padding:0.88VW ;height:2.8VW\";>" + work.Title + "</div>");
-
+                               Response.Write("<div class=\"Noto\" style=\"cursor:pointer;text-align: center; float:left;width:37.75VW; font-color:#5A5A5A ;padding:0.88VW ;height:2.8VW\";>" + work.Title + "</div>");
+                                //Response.Write("<div onclick=\"location.href='Work1?Id=" + work.Id + "&Kind=verse'\"  class=\"Noto\" style=\"cursor:pointer;text-align: center; float:left;width:37.75VW; font-color:#5A5A5A ;padding:0.88VW ;height:2.8VW\";>" + work.Title + "</div>");
+    
                                Response.Write("<div class=\"Noto\" style=\"text-align: center; float:left;width:11.9VW; font-color:#5A5A5A ;padding:0.88VW ;height:2.8VW\";>" + work.Author + "</div>");
 
                                Response.Write("<div class=\"Noto\" style=\"text-align: center; float:left; width:6.3VW; font-color:#5A5A5A ;padding:0.88VW ;height:2.8VW\";>" + work.Like + "</div>");
@@ -205,7 +209,8 @@
                                // Write on Page
                                Response.Write("<div style=\"float:left; width:70.6VW ;height:2.8VW; margin-left:14.75VW;\">");
                                Response.Write("<div class=\"Noto\" style=\"text-align: center; float:left; width:4.453VW;font-color:#5A5A5A;padding:0.88VW ;height:2.8VW\";>" + sum + "</div>");
-                             Response.Write("<div onclick=\"location.href='Work1?Id=" + work.Id + "&Kind=verse'\"  class=\"Noto\" style=\"cursor:pointer;text-align: center; float:left;width:37.75VW; font-color:#5A5A5A ;padding:0.88VW ;height:2.8VW\";>" + work.Title + "</div>");
+                               Response.Write("<div class=\"Noto\" style=\"cursor:pointer;text-align: center; float:left;width:37.75VW; font-color:#5A5A5A ;padding:0.88VW ;height:2.8VW\";>" + work.Title + "</div>");
+                                //Response.Write("<div onclick=\"location.href='Work1?Id=" + work.Id + "&Kind=verse'\"  class=\"Noto\" style=\"cursor:pointer;text-align: center; float:left;width:37.75VW; font-color:#5A5A5A ;padding:0.88VW ;height:2.8VW\";>" + work.Title + "</div>");
 
                                Response.Write("<div class=\"Noto\" style=\"text-align: center;float:left;width:11.9VW; font-color:#5A5A5A ;padding:0.88VW ;height:2.8VW\";>" + work.Author + "</div>");
 

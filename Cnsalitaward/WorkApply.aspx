@@ -93,6 +93,12 @@
             }
             return false;
         }
+
+        //
+        //function uploadFinish(root,value,num) {
+        //    window.open(root, value, num);
+        //}
+
         document.execCommand('Italic')           // 기울이기
         document.execCommand('Underline')        // 밑줄
         document.execCommand('StrikeThrough')    // 중간줄

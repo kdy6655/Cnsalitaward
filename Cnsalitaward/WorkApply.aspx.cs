@@ -146,9 +146,11 @@ namespace Cnsalitaward
                             FileName = fileName
 
                         }, kind);
-                        Response.Redirect("/Notice.aspx");
-                    } 
-					else 
+                        //Response.Redirect("/Notice.aspx");
+                        Page.ClientScript.RegisterClientScriptBlock(typeof(Page), "Alert", "alert('제출되었습니다.')", true);
+
+                    }
+                    else 
                     {
                         Cnsalitaward.Managers.WorkManager.UploadWork(new Models.Work
                         {
@@ -162,7 +164,9 @@ namespace Cnsalitaward
                             FileName = null
 
                         }, kind);
-                        Response.Redirect("/Notice.aspx");
+                        //Response.Redirect("/Notice.aspx");
+                        Page.ClientScript.RegisterClientScriptBlock(typeof(Page), "Alert", "alert('제출되었습니다.')", true);
+
                     }
                 }
                 else

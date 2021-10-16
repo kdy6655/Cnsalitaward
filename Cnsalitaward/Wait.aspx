@@ -12,9 +12,9 @@
         <div style=" height:49vw;">
             <div style="width:101vw; color:white; margin-top: 18vw; margin-left:1vw; text-align:center;color:white !important;margin-right:1vw;">
               
-                <div style="font-size:4vw; margin-top:0vw;" class="NotoB">현재 사이트 정비중입니다.</div>
-                <div style="font-size:2vw;" class="NotoB">불편을 드려 죄송합니다.</div>
-                <div style="font-size:2vw;" class="NotoB">11월 24일 8시 30분에 재오픈하겠습니다.</div>
+                <div style="font-size:4vw; margin-top:0vw;" class="NotoB">현재 오픈 준비 중입니다.</div>
+                <!--<div style="font-size:2vw;" class="NotoB">불편을 드려 죄송합니다.</div>-->
+                <div style="font-size:2vw;" class="NotoB">10월 18일을 기대해주세요!</div>
                 
             </div>  
             </div>

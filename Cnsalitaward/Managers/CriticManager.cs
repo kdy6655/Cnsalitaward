@@ -592,13 +592,18 @@ namespace Cnsalitaward.Managers
             string sql = "SELECT * FROM verse WHERE Id=" + id + ";";
             MySqlCommand cmd = new MySqlCommand(sql, con);
             var rdr = cmd.ExecuteReader();
-            rdr.Read();
-            string Title = (string)rdr["Title"];
-            string Author = (string)rdr["Penname"];
-            rdr.Close();
+            string Title = "Title";
+            if (rdr.Read())
+            {
+                Title = (string)rdr["Title"];
+                string Author = (string)rdr["Penname"];
+                rdr.Close();
+            }
             con.Close();
             return Title;
+      
         }
+            
        
         public static string randomTitleP(int id)
         {
@@ -607,9 +612,12 @@ namespace Cnsalitaward.Managers
             string sql = "SELECT * FROM prose WHERE Id=" + id + ";";
             MySqlCommand cmd = new MySqlCommand(sql, con);
             var rdr = cmd.ExecuteReader();
-            rdr.Read();
-            string Title = (string)rdr["Title"];
-            rdr.Close();
+            string Title = "Title";
+            while (rdr.Read())
+            {
+                Title = (string)rdr["Title"];
+                rdr.Close();
+            }
             con.Close();
             return Title;
         }

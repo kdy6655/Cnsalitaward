@@ -11,6 +11,24 @@ namespace Cnsalitaward
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+                string check = Cnsalitaward.Managers.Account.CheckAdmin(Session["UserID"].ToString());
+                if (check == "admin")
+                {
+                    if (Session["UserID"] == null)
+                    {
+                        Page.ClientScript.RegisterClientScriptBlock(typeof(Page), "Alert", "alert('로그인을 해주세요.'); window.location.href = 'Login.aspx';", true);
+                    }
+                    else
+                    {
+
+                    }
+                   
+                }
+                else
+                {
+                    Response.Redirect("CriticNotice");
+                }
+
 
         }
 

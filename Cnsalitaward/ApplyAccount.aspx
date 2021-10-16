@@ -34,7 +34,8 @@
             <div style="margin-top: 0.2vw; margin-left:-2.5vw; font-size:0.8vw; float:left; color:red;"> ※ 온라인 전시관에서는 실명이 아닌 필명으로 활동하게 됩니다.</div>
             <div style="margin-top: 0.2vw; margin-left:-4.4vw; font-size:0.8vw; float:left; color:red;">  ※ 혐오감을 불러일으키거나, 타인을 비방하는 필명의 경우</div>
             <div style="margin-top: 0.2vw; margin-left:-3.5vw; font-size:0.8vw; float:left; color:red;">  선도위원회, 학교폭력대책위원회에 회부될 수 있습니다.</div>
-   
+            
+                
             <div style="width:10vw; display:inline-block; margin-left:30.2vw;">
             <div class="tytle" style="width:6vw; margin-right:0; display:inline-block; font-size :1.3vw; margin-top:1vw;">아이디</div>
             <asp:Button ID="checkID" runat="server" Text="중복확인"  class="btn" style="margin-left:14vw; display:inline-block; background-color:#EFEFEF; color:black; line-height:2vw; font-size: 1vw; width:5vw; height:2vw; margin-bottom:0; margin-top:1vw;" OnClick="CheckID_Click"/>

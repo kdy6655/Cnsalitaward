@@ -11,124 +11,124 @@ namespace Cnsalitaward
 {
 
 
-	public partial class ApplyAccount
-	{
+    public partial class ApplyAccount
+    {
 
-		/// <summary>
-		/// form1 컨트롤입니다.
-		/// </summary>
-		/// <remarks>
-		/// 자동 생성 필드입니다.
-		/// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
-		/// </remarks>
-		protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        /// <summary>
+        /// form1 컨트롤입니다.
+        /// </summary>
+        /// <remarks>
+        /// 자동 생성 필드입니다.
+        /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
-		/// <summary>
-		/// realName 컨트롤입니다.
-		/// </summary>
-		/// <remarks>
-		/// 자동 생성 필드입니다.
-		/// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.TextBox realName;
+        /// <summary>
+        /// realName 컨트롤입니다.
+        /// </summary>
+        /// <remarks>
+        /// 자동 생성 필드입니다.
+        /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox realName;
 
-		/// <summary>
-		/// checkNumber 컨트롤입니다.
-		/// </summary>
-		/// <remarks>
-		/// 자동 생성 필드입니다.
-		/// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.Button checkNumber;
+        /// <summary>
+        /// checkNumber 컨트롤입니다.
+        /// </summary>
+        /// <remarks>
+        /// 자동 생성 필드입니다.
+        /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button checkNumber;
 
-		/// <summary>
-		/// realNum 컨트롤입니다.
-		/// </summary>
-		/// <remarks>
-		/// 자동 생성 필드입니다.
-		/// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.TextBox realNum;
+        /// <summary>
+        /// realNum 컨트롤입니다.
+        /// </summary>
+        /// <remarks>
+        /// 자동 생성 필드입니다.
+        /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox realNum;
 
-		/// <summary>
-		/// onlyNumber 컨트롤입니다.
-		/// </summary>
-		/// <remarks>
-		/// 자동 생성 필드입니다.
-		/// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.Label onlyNumber;
+        /// <summary>
+        /// onlyNumber 컨트롤입니다.
+        /// </summary>
+        /// <remarks>
+        /// 자동 생성 필드입니다.
+        /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label onlyNumber;
 
-		/// <summary>
-		/// penName 컨트롤입니다.
-		/// </summary>
-		/// <remarks>
-		/// 자동 생성 필드입니다.
-		/// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.TextBox penName;
+        /// <summary>
+        /// penName 컨트롤입니다.
+        /// </summary>
+        /// <remarks>
+        /// 자동 생성 필드입니다.
+        /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox penName;
 
-		/// <summary>
-		/// checkID 컨트롤입니다.
-		/// </summary>
-		/// <remarks>
-		/// 자동 생성 필드입니다.
-		/// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.Button checkID;
+        /// <summary>
+        /// checkID 컨트롤입니다.
+        /// </summary>
+        /// <remarks>
+        /// 자동 생성 필드입니다.
+        /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button checkID;
 
-		/// <summary>
-		/// userId 컨트롤입니다.
-		/// </summary>
-		/// <remarks>
-		/// 자동 생성 필드입니다.
-		/// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.TextBox userId;
+        /// <summary>
+        /// userId 컨트롤입니다.
+        /// </summary>
+        /// <remarks>
+        /// 자동 생성 필드입니다.
+        /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox userId;
 
-		/// <summary>
-		/// onlyID 컨트롤입니다.
-		/// </summary>
-		/// <remarks>
-		/// 자동 생성 필드입니다.
-		/// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.Label onlyID;
+        /// <summary>
+        /// onlyID 컨트롤입니다.
+        /// </summary>
+        /// <remarks>
+        /// 자동 생성 필드입니다.
+        /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label onlyID;
 
-		/// <summary>
-		/// userPw 컨트롤입니다.
-		/// </summary>
-		/// <remarks>
-		/// 자동 생성 필드입니다.
-		/// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.TextBox userPw;
+        /// <summary>
+        /// userPw 컨트롤입니다.
+        /// </summary>
+        /// <remarks>
+        /// 자동 생성 필드입니다.
+        /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox userPw;
 
-		/// <summary>
-		/// userPw2 컨트롤입니다.
-		/// </summary>
-		/// <remarks>
-		/// 자동 생성 필드입니다.
-		/// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.TextBox userPw2;
+        /// <summary>
+        /// userPw2 컨트롤입니다.
+        /// </summary>
+        /// <remarks>
+        /// 자동 생성 필드입니다.
+        /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox userPw2;
 
-		/// <summary>
-		/// pwcheck 컨트롤입니다.
-		/// </summary>
-		/// <remarks>
-		/// 자동 생성 필드입니다.
-		/// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.Label pwcheck;
+        /// <summary>
+        /// pwcheck 컨트롤입니다.
+        /// </summary>
+        /// <remarks>
+        /// 자동 생성 필드입니다.
+        /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label pwcheck;
 
-		/// <summary>
-		/// applybtn 컨트롤입니다.
-		/// </summary>
-		/// <remarks>
-		/// 자동 생성 필드입니다.
-		/// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.Button applybtn;
-	}
+        /// <summary>
+        /// applybtn 컨트롤입니다.
+        /// </summary>
+        /// <remarks>
+        /// 자동 생성 필드입니다.
+        /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button applybtn;
+    }
 }

@@ -25,8 +25,8 @@
 <div id="start" style="margin-left:0; margin-bottom:1vw; "class= "title">큰별문학상</div>
     <hr style="width:20vw; margin-bottom:2vw;"/>
        
-<a style="font-size:1.5vw;font-weight:800; margin-bottom:1vw;">작품을 응모할 수 없습니다.</a>
-<a style="font-size:1.0vw;font-weight:500; margin-left:-0.3vw;">지금은 작품을 비평하는 기간입니다.</a>
+<a style="font-size:1.5vw;font-weight:800; margin-bottom:1vw;">작품을 비평할 수 없습니다.</a>
+<a style="font-size:1.0vw;font-weight:500; margin-left:-0.3vw;">지금은 작품을 응모하는 기간입니다.</a>
 
     </div>
     </asp:Content>

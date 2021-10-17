@@ -32,7 +32,8 @@
     margin-bottom: 10vw;
 ">
             <div class="bighover">
-  <div id="start" class="scene" style="cursor:pointer ;top: 100px;" onclick="location.href='https://forms.gle/nbarQQ8FA6LuGpvP6'"> <% //여기 onclick href %>
+  <div id="start" class="scene" style="cursor:pointer ;top: 100px;"> <% //여기 onclick href %>
+      <!--onclick="location.href='https://forms.gle/nbarQQ8FA6LuGpvP6'" -->
     <div class="upper">
       <div class="moon">
         <div class="crater1"></div>
@@ -75,9 +76,9 @@
     height: 0px;
     margin-left: 65vw;    top: 22px;cursor:pointer
 ">
-	<p class="Dokdo" style="margin-top:-30px;font-size: 29px;width: 200px;margin-left: -37px;">지금 바로 투표하고래</p>
+	<p class="Dokdo" style="margin-top:-30px;font-size: 29px;width: 200px;margin-left: -37px;">지금은 투표 기간이</p>
 
-	                                     <div style="font-size:29px" class="Dokdo">꼭 투표하고래!</div>
+	                                     <div style="font-size:29px" class="Dokdo">아니다고래!</div>
 </blockquote>
 </div>
             </div>

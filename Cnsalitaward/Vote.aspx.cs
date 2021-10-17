@@ -11,7 +11,14 @@ namespace Cnsalitaward
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-          
+           
         }
+
+        protected void Not_Vote(object sender, EventArgs e)
+        {
+            Page.ClientScript.RegisterClientScriptBlock(typeof(Page), "Alert", "alert('아직 투표 기간이 아닙니다.')", true);
+
+        }
+        
     }
 }

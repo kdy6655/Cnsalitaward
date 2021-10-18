@@ -13,6 +13,7 @@ namespace Cnsalitaward
         protected void Page_Load(object sender, EventArgs e)
         {
             string check = Cnsalitaward.Managers.Account.CheckAdmin(Session["UserID"].ToString());
+
             if (check == "admin")
             {
                 if (Session["UserID"] == null)
@@ -35,8 +36,17 @@ namespace Cnsalitaward
             }
 			else
 			{
+                if (!Page.IsPostBack)
+                {
+                    // 넘겨져 온 번호값에 해당하는 글 출력
+                    DisplayData();
+                }
+                else
+                {
+
+                }
                 //Response.Redirect("CriticNotice");
-			}
+            }
 
         }
 
@@ -59,8 +69,6 @@ namespace Cnsalitaward
                     Brieftxt.Text = work.Brief; 
                     Contenttxt.Text = work.Content.Replace("<br/>", "\r\n");
                     Uploadbtn.Style["visibility"] = "hidden"; 
-
-
                 }
 				else
 				{
@@ -255,7 +263,9 @@ namespace Cnsalitaward
                         UserID = work.UserID
                     }, kind);
                 }
-                Response.Redirect("/Notice");
+                //Response.Redirect("/Notice");
+                Page.ClientScript.RegisterClientScriptBlock(typeof(Page), "Alert", "alert('수정되었습니다.')", true);
+
             }
             else
             {

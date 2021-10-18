@@ -32,6 +32,8 @@ namespace Cnsalitaward
                 if (Admin != "admin" && User == work.UserID)
                 {
                     downloadbtn.Style["visibility"] = "visible";
+                    Modifybtn.Style["visibility"] = "visible";
+
                 }
                 else if (Admin == "admin" && User != work.UserID)
                 {
@@ -53,6 +55,8 @@ namespace Cnsalitaward
                 if (Admin != "admin" && User == work.UserID)
                 {
                     downloadbtn.Style["visibility"] = "visible";
+                    Modifybtn.Style["visibility"] = "visible";
+
                 }
                 else if (Admin == "admin" && User != work.UserID)
                 {

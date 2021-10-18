@@ -109,7 +109,7 @@
       <div  class = "realdetail" style = "float:left;">10.26 (화) ~ 11.5 (금)</div></div>
     <div id= class = "detail1" style = "margin-top:0.20833333333333334VW;">
       <div  class = "detail" style = "float:left;">문학제</div>
-      <div  class = "realdetail" style = "float:left;">올해는 코로나 상황으로 인하여 생략함</div></div>
+      <div  class = "realdetail" style = "float:left;">11.10(수)</div></div>
     <div class = "detail1" style = "margin-top:0.20833333333333334VW; width:40vw; display:inline-block">
       <div class = "detail" style = "float:left; margin-left:0vw;">결과발표</div>
       <div  class = "realdetail" style = "float:left;">11.10 (수)</div></div>
@@ -144,9 +144,8 @@
   <div class = "detail2" style = "height:5.9375VW; margin-top:0.4166666666666667VW;">
       <div class = "detail" style = "float:left;">셋째, 응모 방법</div>
       <div class = "realdetail" style = "float:left;">
-        - 홈페이지의 [작품 응모]에서 응모 <br>
-        - 양식에 맞춰 정보, 작품 본문 기입 <br>
-        - 한글파일 양식지 업로드</div></div>
+        - 온라인 전시관 회원 가입 이후 [작품 응모]하기 <br>
+        ※ 상세 내용 추후 안내</div></div>
 </div>
 
 

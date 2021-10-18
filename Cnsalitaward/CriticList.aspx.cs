@@ -11,6 +11,7 @@ namespace Cnsalitaward
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+                
                 string check = Cnsalitaward.Managers.Account.CheckAdmin(Session["UserID"].ToString());
                 if (check == "admin")
                 {

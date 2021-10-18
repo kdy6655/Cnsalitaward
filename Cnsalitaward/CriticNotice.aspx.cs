@@ -11,6 +11,7 @@ namespace Cnsalitaward
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            Page.ClientScript.RegisterClientScriptBlock(typeof(Page), "Alert", "alert('2차 운영기간에 감상이 가능합니다.')", true);
 
         }
     }

@@ -22,6 +22,7 @@
      <div style="font-size:1vw" class="Noto">- <span class="NotoB">2차 운영기간에 비평활동을 가장 많이 한 학생과, 가장 우수하게 한 학생</span>을 뽑아 시상합니다.</div>
      <div style="font-size:1vw" class="Noto">- 정식 대회 시상은 아니지만, <span class="NOtoB">생기부에 해당 내용이 기록</span>됩니다.</div>
      <div style="font-size:1vw" class="Noto">- <span class="NOtoB">비평의 질을 참고</span>하여 시상 여부를 결정할 예정입니다.</div>
+     <div style="font-size:1vw; color:red;" class="Noto"><span class="NOtoB">2차 운영기간에 작품 감상이 가능합니다.</span><br>기다려주세요.</div>
    
   </div>
   

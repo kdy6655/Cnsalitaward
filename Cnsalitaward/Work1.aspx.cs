@@ -44,6 +44,13 @@ namespace Cnsalitaward
                     Deletebtn.Style["visibility"] = "visible";
 
                 }
+                else if (Admin == "admin" && User == work.UserID)
+                {
+                    downloadbtn.Style["visibility"] = "visible";
+                    Modifybtn.Style["visibility"] = "visible";
+                    Deletebtn.Style["visibility"] = "visible";
+
+                }
                 else if(Admin !="admin" && User != work.UserID)
                 {
                     Response.Redirect("WorkList");
@@ -62,6 +69,13 @@ namespace Cnsalitaward
 
                 }
                 else if (Admin == "admin" && User != work.UserID)
+                {
+                    downloadbtn.Style["visibility"] = "visible";
+                    Modifybtn.Style["visibility"] = "visible";
+                    Deletebtn.Style["visibility"] = "visible";
+
+                }
+                else if (Admin == "admin" && User == work.UserID)
                 {
                     downloadbtn.Style["visibility"] = "visible";
                     Modifybtn.Style["visibility"] = "visible";

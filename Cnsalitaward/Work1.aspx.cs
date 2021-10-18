@@ -23,6 +23,7 @@ namespace Cnsalitaward
             Modifybtn.Style["visibility"] = "hidden";
             downloadbtn.Style["visibility"] = "hidden";
 
+
             if (!Page.IsPostBack)
 
             {
@@ -41,7 +42,8 @@ namespace Cnsalitaward
                 }
                 else if(Admin !="admin" && User != work.UserID)
                 {
-                    downloadbtn.Style["visibility"] = "visible";
+                    Response.Redirect("WorkList");
+                    //downloadbtn.Style["visibility"] = "visible";
                 }
 
             }
@@ -61,7 +63,8 @@ namespace Cnsalitaward
                 }
                 else if (Admin != "admin" && User != work.UserID)
                 {
-                    downloadbtn.Style["visibility"] = "visible";
+                    Response.Redirect("WorkList");
+                    //downloadbtn.Style["visibility"] = "visible";
                 }
 
             }

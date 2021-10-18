@@ -43,7 +43,8 @@ namespace Cnsalitaward
                 }
                 else if (Admin != "admin" && User != work.UserID)
                 {
-                    downloadbtn.Style["visibility"] = "visible";
+                    Response.Redirect("WorkList2");
+                    //downloadbtn.Style["visibility"] = "visible";
                 }
 
             }
@@ -64,7 +65,8 @@ namespace Cnsalitaward
                 }
                 else if (Admin != "admin" && User != work.UserID)
                 {
-                    downloadbtn.Style["visibility"] = "visible";
+                    Response.Redirect("WorkList");
+                    //downloadbtn.Style["visibility"] = "visible";
                 }
 
             }

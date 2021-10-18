@@ -155,7 +155,7 @@
   <div class = "lined">
     <div class = "bluelined" style = "float:left"></div>
     <div class = "grayline" style = "float:left"></div></div>
-  <p class = "text" style = "float:left;">시상 계획</p>
+  <p class = "text" style = "float:left;">시상 계획</p> 
   <div class = "detail3"></div>
   <div class = "detail3_1" style = "margin-top:2.5VW;"></div>
   <div class = "detail3_1" style = "margin-top:4.583333333333333VW;"></div>

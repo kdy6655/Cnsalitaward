@@ -155,7 +155,7 @@ namespace Cnsalitaward
             string check;
             try
             {
-                 check = Request.Cookies[rmduser].Value;
+               check = Request.Cookies[rmduser].Value;
             }
             catch(Exception ex)
             {

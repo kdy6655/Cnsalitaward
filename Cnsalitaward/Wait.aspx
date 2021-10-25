@@ -12,9 +12,9 @@
         <div style=" height:49vw;">
             <div style="width:101vw; color:white; margin-top: 18vw; margin-left:1vw; text-align:center;color:white !important;margin-right:1vw;">
               
-                <div style="font-size:4vw; margin-top:0vw;" class="NotoB">잠시 페이지가 불안정해요.</div>
+                <div style="font-size:4vw; margin-top:0vw;" class="NotoB">2차 운영기간(10/27~11/9) 준비중입니다</div>
                 <!--<div style="font-size:2vw;" class="NotoB">불편을 드려 죄송합니다.</div>-->
-                <div style="font-size:2vw;" class="NotoB">조금 뒤 다시 접속해주세요!</div>
+                <div style="font-size:2vw;" class="NotoB">조금만 기다려주세요!</div>
                 
             </div>  
             </div>

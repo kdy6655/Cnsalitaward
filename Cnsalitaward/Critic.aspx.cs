@@ -31,9 +31,13 @@ namespace Cnsalitaward
                 
                 if (Admin != "admin" && User == work.UserID)
                 {
+                    Modifybtn.Style["visibility"] = "visible";
+                    Deletebtn.Style["visibility"] = "visible";
                 }
                 else if (Admin == "admin" && User != work.UserID)
                 {
+                    Modifybtn.Style["visibility"] = "visible";
+                    Deletebtn.Style["visibility"] = "visible";
 
                 }
                 else if (Admin != "admin" && User != work.UserID)

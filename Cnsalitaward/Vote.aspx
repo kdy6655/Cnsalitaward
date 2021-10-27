@@ -32,7 +32,7 @@
     margin-bottom: 10vw;
 ">
             <div class="bighover">
-  <div id="start" class="scene" style="cursor:pointer ;top: 100px;" onclick="location.href='https://forms.gle/nbarQQ8FA6LuGpvP6'"> <% //여기 onclick href %>
+  <div id="start" class="scene" style="cursor:pointer ;top: 100px;" onclick="location.href='https://forms.gle/1ANa8DfXJtc8GHaG9'"> <% //여기 onclick href %>
     <div class="upper">
       <div class="moon">
         <div class="crater1"></div>

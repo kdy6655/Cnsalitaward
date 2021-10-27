@@ -13,7 +13,7 @@
    <link rel="stylesheet"  href="/assets/css/default.css" />
 </head>
 
-     <%--   <script language="javascript" type="text/javascript">
+<%--        <script language="javascript" type="text/javascript">
             function openWin() {
                 window.open("Notice.aspx", "공지", 'width=650px, height=350px,menubar=no,resizable=no,location=no,scrollbars=no,toolbar=no,status=no;');
             }
@@ -36,7 +36,7 @@
     </ol>
     <!-- Carousel items -->
     <div class="carousel-inner">
-        <div class="carousel-item active"><img style="width:100% ;height:14VW" src="assets/img/notice_test.png" alt="Slide One ;"></div>
+        <div class="carousel-item active"><img style="width:100% ;height:14VW" src="assets/img/notice2.png" alt="Slide One ;"></div>
         <div class="carousel-item"><img style="width:100% ;height:14VW" src="assets/img/care3.jpg" alt="Slide One ;"></div>
         <div class="carousel-item"><img style="width:100% ;height:14VW" src="assets/img/care2.jpg" alt="Slide One ;"></div>
         <div class="carousel-item"><img style="width:100% ;height:14VW" src="assets/img/care4.png" alt="Slide One ;"></div>
@@ -54,7 +54,7 @@
         </a>
 </div>
                 </td>
-                    <td href="#" onclick="alert('현재는 투표할 수 없습니다.')"  style="cursor:pointer; width:20% ;height:14VW;background-image:url('/assets/img/vote.jpg'); background-size:contain; border:none" >
+                    <td onclick="location.href='Vote.aspx"  style="cursor:pointer; width:20% ;height:14VW;background-image:url('/assets/img/vote.jpg'); background-size:contain; border:none" >
                 </td>
                 <td  style=" width:20% ;height:14VW; border:none; background-image:url('/assets/img/default1.jpg'); background-size:contain;" >
                 </td>

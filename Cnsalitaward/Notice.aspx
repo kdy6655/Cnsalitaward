@@ -11,23 +11,33 @@
     
 <form id="form1" runat="server">
     <%  
-		
+
         Random rand = new Random();
-		int randNum = rand.Next(54);
-        int randNum2 = rand.Next(31);
+        int randNum = rand.Next(10,61);
+        int randNum2 = rand.Next(26,157);
         Session["ID1"] = randNum;
         Session["ID2"] = randNum2;
-		string TitleV = Cnsalitaward.Managers.CriticManager.randomTitleV((int)Session["ID1"]);
-		string TitleP = Cnsalitaward.Managers.CriticManager.randomTitleP((int)Session["ID2"]);
-		titlev.Text = "'" + TitleV + "'";
-		titlep.Text = "'" + TitleP + "'";
+        string TitleV = Cnsalitaward.Managers.CriticManager.randomTitleV((int)Session["ID1"]);
+        string TitleP = Cnsalitaward.Managers.CriticManager.randomTitleP((int)Session["ID2"]);
+        while(TitleV == null || TitleP == null)
+        {
+            randNum = rand.Next(10,61);
+            randNum2 = rand.Next(26,157);
+            Session["ID1"] = randNum;
+            Session["ID2"] = randNum2;
+            TitleV = Cnsalitaward.Managers.CriticManager.randomTitleV((int)Session["ID1"]);
+            TitleP = Cnsalitaward.Managers.CriticManager.randomTitleP((int)Session["ID2"]);
+
+        }
+        //titlev.Text = "'" + TitleV + "'";
+        //titlep.Text = "'" + TitleP + "'";
 
         int id1 = (int)Session["ID1"];
         int id2 = (int)Session["ID2"];
 
 
                 %>
-       <div style=" height:49vw;">
+       <%--<div style=" height:49vw;">
             <div style="width:101vw; color:white; margin-top: 3vw; margin-left:1vw; text-align:center;color:white !important;margin-right:1vw;">
                 <div style="font-size:6vw; margin-bottom:1vw;" class="Dokdo">당신을 위한 추천작</div>
 
@@ -44,6 +54,6 @@
                 <asp:Button ID="check" runat="server" Text="확인했어요!" CssClass="btn btn-1" style="height:4vw; width:15vw; padding:0; " OnClick="Move_Click" />
             </div>  
             </div>
-</>
+</>--%>
     </form></body>
     

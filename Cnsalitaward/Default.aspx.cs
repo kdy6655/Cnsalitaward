@@ -66,6 +66,8 @@ namespace Cnsalitaward
 			{
                 Page.ClientScript.RegisterClientScriptBlock(typeof(Page), "Alert", "alert('로그인을 해주세요.'); window.location.href = 'Login.aspx';", true);
 			}
+
+            
         }
     }
 }

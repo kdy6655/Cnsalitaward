@@ -13,19 +13,18 @@ namespace Cnsalitaward
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            DisplayData1();
-
+            //DisplayData1();
             MySqlConnection conn = null;
             conn = new MySqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["Cnsalitaward"].ConnectionString);
             conn.Open();
-            if (!Page.IsPostBack)
-
+            if(!Page.IsPostBack)
             {
+                DisplayData1();
                 String getState = "Select Title as TextField, Id as ValueField from verse  union Select Title as TextField, Id as ValueField from prose;";
 
                 DataTable dt = new DataTable();
                 MySqlDataAdapter da = new MySqlDataAdapter(getState, conn);
-                //da.Fill(dt);
+
                 da.Fill(dt);
 
                 criticwork.DataSource = dt;
@@ -33,15 +32,46 @@ namespace Cnsalitaward
                 criticwork.DataValueField = "TextField";
                 criticwork.DataBind();
 
-               
-
                 conn.Close();
-                // 넘겨져 온 번호값에 해당하는 글 출력
-
-
-
+                //넘겨져 온 번호값에 해당하는 글 출력
 
             }
+
+            string check = Cnsalitaward.Managers.Account.CheckAdmin(Session["UserID"].ToString());
+
+            if (check == "admin")
+            {
+                if (Session["UserID"] == null)
+                {
+                    Page.ClientScript.RegisterClientScriptBlock(typeof(Page), "Alert", "alert('로그인을 해주세요.'); window.location.href = 'Login.aspx';", true);
+                }
+                else
+                {
+
+                }
+                if (!Page.IsPostBack)
+                {
+                    // 넘겨져 온 번호값에 해당하는 글 출력
+                    
+                }
+                else
+                {
+
+                }
+            }
+			else
+			{
+                if (!Page.IsPostBack)
+                {
+                    // 넘겨져 온 번호값에 해당하는 글 출력
+                   
+                }
+                else
+                {
+
+                }
+             }
+
 
         }
         private void DisplayData1()
@@ -61,6 +91,7 @@ namespace Cnsalitaward
                     Titletxt.Text = work.Title;
                     Contenttxt.Text = work.Content.Replace("<br/>", "\r\n");
                     Uploadbtn.Style["visibility"] = "hidden";
+                    Savebtn.Style["visibility"] = "visible";
 
 
                 }

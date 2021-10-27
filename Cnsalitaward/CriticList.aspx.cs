@@ -27,7 +27,7 @@ namespace Cnsalitaward
                 }
                 else
                 {
-                    Response.Redirect("CriticNotice");
+                   
                 }
 
 

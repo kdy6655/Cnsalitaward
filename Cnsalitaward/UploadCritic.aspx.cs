@@ -37,42 +37,6 @@ namespace Cnsalitaward
 
             }
 
-            string check = Cnsalitaward.Managers.Account.CheckAdmin(Session["UserID"].ToString());
-
-            if (check == "admin")
-            {
-                if (Session["UserID"] == null)
-                {
-                    Page.ClientScript.RegisterClientScriptBlock(typeof(Page), "Alert", "alert('로그인을 해주세요.'); window.location.href = 'Login.aspx';", true);
-                }
-                else
-                {
-
-                }
-                if (!Page.IsPostBack)
-                {
-                    // 넘겨져 온 번호값에 해당하는 글 출력
-                    
-                }
-                else
-                {
-
-                }
-            }
-			else
-			{
-                if (!Page.IsPostBack)
-                {
-                    // 넘겨져 온 번호값에 해당하는 글 출력
-                   
-                }
-                else
-                {
-
-                }
-             }
-
-
         }
         private void DisplayData1()
         {

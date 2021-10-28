@@ -48,6 +48,7 @@
             <td class="Noto" style="font-size:0.8VW;text-align: center;width:12vw;   border: solid 0.05VW;">작가</td>
          
             <td class="Noto" style="font-size:0.8VW;text-align: center;border: solid 0.05VW;">작성일</td>
+	    <td class="Noto" style="font-size:0.8VW;text-align: center; border: solid 0.05VW;">추천수</td>
             </tr>
         </table>
             <div style="border:solid white 0.05VW;margin-top:-2.5VW; margin-left:14.68VW; width:0.05VW; height:2.6VW;"></div>
@@ -89,7 +90,7 @@
 
                            Response.Write("<div class=\"Noto\" style=\"text-align: center;float:left;width:12VW; font-color:#5A5A5A ;padding:0.88VW ;height:2.8VW\";>" + work.Author + "</div>");
 
-                           Response.Write("<div class=\"Noto\" style=\"text-align: center; float:left; margin-left: 0.5vw; width:12.5vw; font-color:#5A5A5A ;padding:0.88VW ;height:2.8VW\"; >" + work.Date.Date.ToString("yy.MM.dd") + "</div>");
+                           Response.Write("<div class=\"Noto\" style=\"text-align: left; float:left; margin-left: 0.5vw; width:12.5vw; font-color:#5A5A5A ;padding:0.88VW ;height:2.8VW\"; >" + work.Date.Date.ToString("yy.MM.dd") + "</div>");
                            Response.Write("<div style=\"border:solid #5A5A5A 0.05VW; width:70.6VW;margin-top:2.8VW\";></div>");
                            Response.Write("</div>");
                            ++ nc;
@@ -116,7 +117,7 @@
 
                            Response.Write("<div class=\"Noto\" style=\"text-align: center;float:left;width:12VW; font-color:#5A5A5A ;padding:0.88VW ;height:2.8VW\";>" + work.Author + "</div>");
 
-                           Response.Write("<div class=\"Noto\" style=\"text-align: center; float:left; width:12.5vw; margin-left: 0.5vw; font-color:#5A5A5A ;padding:0.88VW ;height:2.8VW\";>" + work.Date.Date.ToString("yy.MM.dd") + "</div>");
+                           Response.Write("<div class=\"Noto\" style=\"text-align: left; float:left; width:12.5vw; margin-left: 0.5vw; font-color:#5A5A5A ;padding:0.88VW ;height:2.8VW\";>" + work.Date.Date.ToString("yy.MM.dd") + "</div>");
                            Response.Write("<div style=\"border:solid #5A5A5A 0.05VW; width:70.6VW;margin-top:2.8VW\";></div>");
                            Response.Write("</div>");
                            ++ nc;
@@ -145,7 +146,7 @@
 
                                Response.Write("<div class=\"Noto\" style=\"text-align: center;float:left;width:12VW; font-color:#5A5A5A ;padding:0.88VW ;height:2.8VW\";>" + work.Author + "</div>");
 
-                               Response.Write("<div class=\"Noto\" style=\"text-align: center; float:left; width:12.5vw; font-color:#5A5A5A ;padding:0.88VW ;height:2.8VW\";>" + work.Date.Date.ToString("yy.MM.dd") + "</div>");
+                               Response.Write("<div class=\"Noto\" style=\"text-align: left; float:left; width:12.5vw; font-color:#5A5A5A ;padding:0.88VW ;height:2.8VW\";>" + work.Date.Date.ToString("yy.MM.dd") + "</div>");
                                Response.Write("<div style=\"border:solid #5A5A5A 0.05VW; width:70.6VW;margin-top:2.8VW\";></div>");
                                Response.Write("</div>");
                                ++ count;
@@ -173,7 +174,7 @@
 
                                Response.Write("<div class=\"Noto\" style=\"text-align: center;float:left;width:12VW; font-color:#5A5A5A ;padding:0.88VW ;height:2.8VW\";>" + work.Author + "</div>");
 
-                               Response.Write("<div class=\"Noto\" style=\"text-align: center; float:left; width:12.5vw; margin-left: 0.5vw; font-color:#5A5A5A ;padding:0.88VW ;height:2.8VW\";>" + work.Date.Date.ToString("yy.MM.dd") + "</div>");
+                               Response.Write("<div class=\"Noto\" style=\"text-align: left; float:left; width:12.5vw; margin-left: 0.5vw; font-color:#5A5A5A ;padding:0.88VW ;height:2.8VW\";>" + work.Date.Date.ToString("yy.MM.dd") + "</div>");
                                Response.Write("<div style=\"border:solid #5A5A5A 0.05VW; width:70.6VW;margin-top:2.8VW\";></div>");
                                Response.Write("</div>");
                                ++count;

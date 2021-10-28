@@ -54,7 +54,7 @@
         </a>
 </div>
                 </td>
-                    <td onclick="location.href='Vot.aspx"  style="cursor:pointer; width:20% ;height:14VW;background-image:url('/assets/img/vote.jpg'); background-size:contain; border:none" >
+                    <td onclick="location.href='Vote.aspx'"  style="cursor:pointer; width:20% ;height:14VW;background-image:url('/assets/img/vote.jpg'); background-size:contain; border:none" >
                 </td>
                 <td  style=" width:20% ;height:14VW; border:none; background-image:url('/assets/img/default1.jpg'); background-size:contain;" >
                 </td>

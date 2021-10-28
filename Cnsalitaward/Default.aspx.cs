@@ -27,12 +27,6 @@ namespace Cnsalitaward
             cmdd.Parameters.AddWithValue("@Date", Date);
             obj = cmdd.ExecuteScalar();
             MySqlDataReader reader = cmdd.ExecuteReader();
-            if (!Page.IsPostBack)
-            {
-                ClientScriptManager sm = Page.ClientScript;
-                string script = "<script>openWin();</script>";
-                sm.RegisterStartupScript(this.GetType(), "sm", script);
-            }
             reader.Close();
           
             if (obj != null)

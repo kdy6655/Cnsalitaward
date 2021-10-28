@@ -591,13 +591,13 @@ namespace Cnsalitaward.Managers
             con.Open();
             string sql = "SELECT * FROM verse WHERE Id=" + id + ";";
             MySqlCommand cmd = new MySqlCommand(sql, con);
-            var rdr = cmd.ExecuteReader();
+            var rdr = cmd.ExecuteReader(CommandBehavior.CloseConnection);
             string Title = "Title";
-            if (rdr.Read())
+            while(rdr.Read())
             {
                 Title = (string)rdr["Title"];
-                string Author = (string)rdr["Penname"];
-                rdr.Close();
+                //string Author = (string)rdr["Penname"];
+                //rdr.Close();
             }
             con.Close();
             return Title;
@@ -607,19 +607,21 @@ namespace Cnsalitaward.Managers
        
         public static string randomTitleP(int id)
         {
-            MySqlConnection con = new MySqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["Cnsalitaward"].ConnectionString);
-            con.Open();
-            string sql = "SELECT * FROM prose WHERE Id=" + id + ";";
-            MySqlCommand cmd = new MySqlCommand(sql, con);
-            var rdr = cmd.ExecuteReader();
-            string Title = "Title";
-            while (rdr.Read())
+            using (MySqlConnection con = new MySqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["Cnsalitaward"].ConnectionString))
             {
-                Title = (string)rdr["Title"];
-                rdr.Close();
+                con.Open();
+                string sql = "SELECT * FROM prose WHERE Id=" + id + ";";
+                MySqlCommand cmd = new MySqlCommand(sql, con);
+                var rdr = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+                string Title = "title";
+                while (rdr.Read())
+                {
+                    Title = (string)rdr["Title"];
+                    //rdr.Close();
+                }
+                return Title;
+                con.Close();
             }
-            con.Close();
-            return Title;
         }
 
     }

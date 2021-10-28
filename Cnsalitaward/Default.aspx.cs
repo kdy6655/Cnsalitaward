@@ -27,6 +27,12 @@ namespace Cnsalitaward
             cmdd.Parameters.AddWithValue("@Date", Date);
             obj = cmdd.ExecuteScalar();
             MySqlDataReader reader = cmdd.ExecuteReader();
+            if (!Page.IsPostBack)
+            {
+                ClientScriptManager sm = Page.ClientScript;
+                string script = "<script>openWin();</script>";
+                sm.RegisterStartupScript(this.GetType(), "sm", script);
+            }
             reader.Close();
           
             if (obj != null)
@@ -67,7 +73,7 @@ namespace Cnsalitaward
                 Page.ClientScript.RegisterClientScriptBlock(typeof(Page), "Alert", "alert('로그인을 해주세요.'); window.location.href = 'Login.aspx';", true);
 			}
 
-            
+           
         }
     }
 }

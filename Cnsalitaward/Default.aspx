@@ -13,12 +13,12 @@
    <link rel="stylesheet"  href="/assets/css/default.css" />
 </head>
 
-<%--        <script language="javascript" type="text/javascript">
+        <script language="javascript" type="text/javascript">
             function openWin() {
-                window.open("Notice.aspx", "공지", 'width=650px, height=350px,menubar=no,resizable=no,location=no,scrollbars=no,toolbar=no,status=no;');
+                window.open("Notice.aspx", "_self", 'width=650px, height=350px,menubar=no,resizable=no,location=no,scrollbars=no,toolbar=no,status=no;');
             }
         </script>
-        <body onload="openWin();"></body>--%>
+        <%--<body onload="openWin();"></body>--%>
 
     <body style="user-select:none;">
      

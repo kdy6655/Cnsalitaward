@@ -11,52 +11,70 @@ namespace Cnsalitaward
 {
 
 
-	public partial class Work2
-	{
+    public partial class Work2
+    {
 
-		/// <summary>
-		/// Modifybtn 컨트롤입니다.
-		/// </summary>
-		/// <remarks>
-		/// 자동 생성 필드입니다.
-		/// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.Button Modifybtn;
+        /// <summary>
+        /// Modifybtn 컨트롤입니다.
+        /// </summary>
+        /// <remarks>
+        /// 자동 생성 필드입니다.
+        /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Modifybtn;
 
-		/// <summary>
-		/// Deletebtn 컨트롤입니다.
-		/// </summary>
-		/// <remarks>
-		/// 자동 생성 필드입니다.
-		/// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.Button Deletebtn;
+        /// <summary>
+        /// Deletebtn 컨트롤입니다.
+        /// </summary>
+        /// <remarks>
+        /// 자동 생성 필드입니다.
+        /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Deletebtn;
 
-		/// <summary>
-		/// downloadbtn 컨트롤입니다.
-		/// </summary>
-		/// <remarks>
-		/// 자동 생성 필드입니다.
-		/// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.Button downloadbtn;
+        /// <summary>
+        /// downloadbtn 컨트롤입니다.
+        /// </summary>
+        /// <remarks>
+        /// 자동 생성 필드입니다.
+        /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button downloadbtn;
 
-		/// <summary>
-		/// Likebtn 컨트롤입니다.
-		/// </summary>
-		/// <remarks>
-		/// 자동 생성 필드입니다.
-		/// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.Button Likebtn;
+        /// <summary>
+        /// replytxt 컨트롤입니다.
+        /// </summary>
+        /// <remarks>
+        /// 자동 생성 필드입니다.
+        /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox replytxt;
 
-		/// <summary>
-		/// Listbtn 컨트롤입니다.
-		/// </summary>
-		/// <remarks>
-		/// 자동 생성 필드입니다.
-		/// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.Button Listbtn;
-	}
+        /// <summary>
+        /// replybtn 컨트롤입니다.
+        /// </summary>
+        /// <remarks>
+        /// 자동 생성 필드입니다.
+        /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button replybtn;
+
+        /// <summary>
+        /// Likebtn 컨트롤입니다.
+        /// </summary>
+        /// <remarks>
+        /// 자동 생성 필드입니다.
+        /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Likebtn;
+
+        /// <summary>
+        /// Listbtn 컨트롤입니다.
+        /// </summary>
+        /// <remarks>
+        /// 자동 생성 필드입니다.
+        /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Listbtn;
+    }
 }

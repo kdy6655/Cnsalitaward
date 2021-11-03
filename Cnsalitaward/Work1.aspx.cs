@@ -22,7 +22,8 @@ namespace Cnsalitaward
             Deletebtn.Style["visibility"] = "hidden";
             Modifybtn.Style["visibility"] = "hidden";
             downloadbtn.Style["visibility"] = "hidden";
-
+            replytxt.Style["visibility"] = "hidden";
+            replybtn.Style["visibility"] = "hidden";
 
             if (!Page.IsPostBack)
 
@@ -42,6 +43,8 @@ namespace Cnsalitaward
                     downloadbtn.Style["visibility"] = "visible";
                     Modifybtn.Style["visibility"] = "visible";
                     Deletebtn.Style["visibility"] = "visible";
+                    replytxt.Style["visibility"] = "visible";
+                    replybtn.Style["visibility"] = "visible";
 
                 }
                 else if (Admin == "admin" && User == work.UserID)
@@ -49,6 +52,8 @@ namespace Cnsalitaward
                     downloadbtn.Style["visibility"] = "visible";
                     Modifybtn.Style["visibility"] = "visible";
                     Deletebtn.Style["visibility"] = "visible";
+                    replytxt.Style["visibility"] = "visible";
+                    replybtn.Style["visibility"] = "visible";
 
                 }
                 else if(Admin !="admin" && User != work.UserID)
@@ -72,6 +77,8 @@ namespace Cnsalitaward
                     downloadbtn.Style["visibility"] = "visible";
                     Modifybtn.Style["visibility"] = "visible";
                     Deletebtn.Style["visibility"] = "visible";
+                    replytxt.Style["visibility"] = "visible";
+                    replybtn.Style["visibility"] = "visible";
 
                 }
                 else if (Admin == "admin" && User == work.UserID)
@@ -79,6 +86,8 @@ namespace Cnsalitaward
                     downloadbtn.Style["visibility"] = "visible";
                     Modifybtn.Style["visibility"] = "visible";
                     Deletebtn.Style["visibility"] = "visible";
+                    replytxt.Style["visibility"] = "visible";
+                    replybtn.Style["visibility"] = "visible";
 
                 }
                 else if (Admin != "admin" && User != work.UserID)
@@ -217,6 +226,22 @@ namespace Cnsalitaward
                 Response.End();
             }
         }
+
+        protected void Reply_Click(object sender, EventArgs e)
+        {
+            string kind = "verse";
+            string number = Request.QueryString["Id"].ToString();
+            int id = Convert.ToInt32(number);
+            string User = Session["UserID"].ToString();
+            Managers.WorkManager.UploadReply(new Models.Work
+            {
+                UserID = User,
+                Author = Session["PenName"].ToString(),
+                Content = replytxt.Text,
+                Reply = id
+            }, kind);
+        }
+
 
     }
 }

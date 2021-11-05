@@ -45,7 +45,7 @@ namespace Cnsalitaward
                         Session["PenName"] = (string)rdr["Penname"];
                     }
                     
-                    Response.Redirect("/Notice.aspx");
+                    Response.Redirect("/Notice2.aspx");
                     con.Close();
 				}   
 				else

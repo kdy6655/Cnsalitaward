@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
 </head>
-<body style="background: url('/assets/img/background.png'); background-size:cover; display:flex; justify-content:center; align-content:center; overflow:hidden; user-select:none;">
+<body style="background: url('/assets/img/background3.jpg'); background-size:cover; display:flex; justify-content:center; align-content:center; overflow:hidden; user-select:none;">
     
 <form id="form1" runat="server">
   
@@ -18,9 +18,11 @@
           
                 <asp:Label ID="Label1" runat="server" Text="" CssClass="NotoB" style="font-size:2.5vw; margin-top:3vw"></asp:Label>
 
-                <div style="font-size:2vw; color:midnightblue; cursor:pointer" class="NotoB" onclick="location.href='/Vote'" ><span style="font-size:1vw; color:midnightblue; cursor:pointer" class="NotoB">지금 당장</span>
-                투표 하러가기</div>
+                <span style="font-size:1vw; color:midnightblue; cursor:pointer" class="NotoB">지금 당장</span>
+                <div style="font-size:2vw; color:midnightblue; cursor:pointer" class="NotoB" onclick="location.href='/Vote'" >투표 하러가기</div>
                 
+                <div style="color:white; margin-left:10vw; margin-right:10vw; margin-top:2vw; font-size:1.5vw" class="Noto">이미 투표했다면?</div>
+          
                 <div style="font-size:2vw; color:midnightblue; cursor:pointer" class="NotoB" onclick="location.href='/WorkList'" >작품 보러가기</div>
 
                 <asp:Label ID="Label2" runat="server" Text="" CssClass="NotoB" style="font-size:2.5vw; margin-top:3vw"></asp:Label>

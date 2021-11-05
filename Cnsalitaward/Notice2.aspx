@@ -9,7 +9,7 @@
 </head>
 <body style="background: url('/assets/img/background3.jpg'); background-size:cover; display:flex; justify-content:center; align-content:center; overflow:hidden; user-select:none;">
     
-<form id="form1" runat="server">
+<form id="form2" runat="server">
   
        <div style=" height:49vw;">
             <div style="width:101vw; color:white; margin-top: 3vw; margin-left:1vw; text-align:center;color:white !important;margin-right:1vw;">
@@ -27,7 +27,7 @@
 
                 <asp:Label ID="Label2" runat="server" Text="" CssClass="NotoB" style="font-size:2.5vw; margin-top:3vw"></asp:Label>
                 
-                <asp:Button ID="check" runat="server" Text="확인했어요!" CssClass="btn btn-1" style="height:4vw; width:15vw; padding:0; " OnClick="Move_Click" />
+                <asp:Button ID="check2" runat="server" Text="확인했어요!" CssClass="btn btn-1" style="height:4vw; width:15vw; padding:0; " OnClick="Move_Click" />
             </div>  
             </div>
 </>

@@ -15,13 +15,13 @@ namespace Cnsalitaward
     {
 
         /// <summary>
-        /// form1 컨트롤입니다.
+        /// form2 컨트롤입니다.
         /// </summary>
         /// <remarks>
         /// 자동 생성 필드입니다.
         /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form2;
 
         /// <summary>
         /// Label1 컨트롤입니다.
@@ -42,12 +42,12 @@ namespace Cnsalitaward
         protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
-        /// check 컨트롤입니다.
+        /// check2 컨트롤입니다.
         /// </summary>
         /// <remarks>
         /// 자동 생성 필드입니다.
         /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button check;
+        protected global::System.Web.UI.WebControls.Button check2;
     }
 }

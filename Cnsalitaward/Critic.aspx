@@ -65,7 +65,7 @@
             string User = Session["UserID"].ToString();
           string Admin = Cnsalitaward.Managers.Account.CheckAdmin(User);
           %>
-    <button Text="추천하기" OnClick="#" class=" list" style="cursor:pointer; float:left; margin-left:59vw">추천</button> 
+    <!--<button Text="추천하기" OnClick="#" class=" list" style="cursor:pointer; float:left; margin-left:59vw">추천</button> -->
     <asp:Button runat="server" Text="목록" ID="Listbtn" OnClick="List_Click" class = "list" style = " cursor:pointer; float:left;margin-left:65vw;margin-bottom:4vw; margin-top:-4.85vw"></asp:Button>
 
   </div>

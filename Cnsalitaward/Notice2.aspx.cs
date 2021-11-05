@@ -11,13 +11,13 @@ namespace Cnsalitaward
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-           
+
         }
-        protected void Move_Click(object sender,EventArgs e)
-		{
+        protected void Move_Click(object sender, EventArgs e)
+        {
             Response.Redirect("/Default");
-		}
-       
+        }
+
 
 
 

@@ -142,7 +142,6 @@
     <Content Include="assets\img\notice2.png" />
     <Content Include="assets\img\notice_test.png" />
     <Content Include="assets\img\popup.jpg" />
-    <Content Include="Notice2.aspx" />
     <Content Include="Wait.aspx" />
     <Content Include="VoteNotice.aspx" />
     <Content Include="CriticNotice.aspx" />
@@ -212,6 +211,7 @@
     <Content Include="assets\font\NotoSansKR-Regular.otf" />
     <Content Include="UploadCritic.aspx" />
     <Content Include="Vote.aspx" />
+    <Content Include="Notice2.aspx" />
     <Content Include="Work1.aspx" />
     <Content Include="Work2.aspx" />
     <Content Include="WorkApply.aspx" />
@@ -275,13 +275,6 @@
     </Compile>
     <Compile Include="AdminLogin.aspx.designer.cs">
       <DependentUpon>AdminLogin.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Notice2.aspx.cs">
-      <DependentUpon>Notice2.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Notice2.aspx.designer.cs">
-      <DependentUpon>Notice2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Wait.aspx.cs">
       <DependentUpon>Wait.aspx</DependentUpon>
@@ -427,6 +420,13 @@
     </Compile>
     <Compile Include="Vote.aspx.designer.cs">
       <DependentUpon>Vote.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Notice2.aspx.cs">
+      <DependentUpon>Notice2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Notice2.aspx.designer.cs">
+      <DependentUpon>Notice2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Work1.aspx.cs">
       <DependentUpon>Work1.aspx</DependentUpon>

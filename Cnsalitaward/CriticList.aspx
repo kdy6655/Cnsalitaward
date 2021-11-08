@@ -190,7 +190,7 @@
 
 
                %> 
-     <div style="height: 2.5vw; display:flex; align-items:center; justify-content:center; cursor:pointer;margin-top:32vw;margin-left:79vw;background-color:#002897;color:white; border-radius:20px; font-size:1vw; display:inline;" onclick="location.href='UploadCritic.aspx'"class="writecritic" >비평하기</div>
+   <!--  <div style="height: 2.5vw; display:flex; align-items:center; justify-content:center; cursor:pointer;margin-top:32vw;margin-left:79vw;background-color:#002897;color:white; border-radius:20px; font-size:1vw; display:inline;" onclick="location.href='UploadCritic.aspx'"class="writecritic" >비평하기</div>-->
            <div style="text-align: center; height:3vw; margin-top:30vw;">
                <span>
                    <strong><b>
